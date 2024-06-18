@@ -3,7 +3,7 @@ import toolkitSlice from "./reducersSlice"
 
 const store = configureStore({
   reducer: {
-    store: toolkitSlice.reducer,
+    state: toolkitSlice,
   },
 })
 

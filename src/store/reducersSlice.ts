@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
   flag: false,
+  isActive: false,
 }
 
 const toolkitSlice = createSlice({
@@ -16,4 +17,4 @@ const toolkitSlice = createSlice({
 })
 
 export const { flagUpdate } = toolkitSlice.actions
-export default toolkitSlice
+export default toolkitSlice.reducer

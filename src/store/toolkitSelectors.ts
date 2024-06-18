@@ -1,5 +1,7 @@
-const mainSelector = (store: { store: any }) => store.store
+// const mainSelector = (store: { store: any }) => store.store
 
-export default mainSelector
+// export default mainSelector
 
-export const flagSelector = (store: { store: any }) => mainSelector(store).flag
+// export const flagSelector = (store: { store: any }) => mainSelector(store).flag
+
+export {}
