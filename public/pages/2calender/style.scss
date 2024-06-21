@@ -51,20 +51,22 @@
     background-color: green;
     display: grid;
     grid-column: 4 / 16;
-    grid-row: 2 / 10;
+    // grid-row: 2 / 10;
+    grid-row: 2 / 2;
     margin-left: 32px;
     margin-top: 21px;
 }
 
 .lPanel {
 
+    height: auto;
     // ?
     // grid-row: span 1 / 2;
     // margin-top: 23px;
     margin-top: -33px;
     // ?
 
-    height: 704px;
+    // height: 704px;
     // левая панель 
     display: grid;
     grid-column: span 3;
@@ -234,6 +236,8 @@
             justify-content: center;
             padding-top: 50px;
 
+            padding-bottom: 24px;
+
             &-1 {
                 border-style: dashed;
                 border-color: gray;
@@ -296,14 +300,15 @@
 
 .table {
 
-
-    height: 573px;
+    height: auto;
+    // height: 573px;
     background-color: yellow;
 
     &__date {
         display: flex;
         align-items: center;
         padding-bottom: 12px;
+        padding-top: 12px;
 
         &-left {
             padding-right: 16px;
@@ -379,15 +384,16 @@
             justify-content: space-between;
             align-items: flex-end;
             padding: 0px 6px 0px 6px;
-
-
-            /* Inside Auto Layout */
-
-
             align-self: stretch;
-
             margin: 0px 0px;
             border-radius: 8px 0px 0px 0px;
+
+            color: rgb(121, 116, 127);
+            font-family: Circe Rounded;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 135%;
+            text-align: left;
         }
     }
 
@@ -403,5 +409,11 @@
 
         border: 1px solid rgb(236, 236, 236);
         background: rgb(255, 255, 255);
+        color: rgb(200, 197, 205);
+        font-family: Circe Rounded;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+        text-align: right;
     }
 }
