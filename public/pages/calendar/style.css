@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.c {
+  width: calc(100% - 273px);
+}
+
 .header {
   position: absolute;
   width: 1154px;

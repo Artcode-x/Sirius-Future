@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: blue;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+}
+
+.header {
+  background-color: red;
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 16;
+}
+
+.content {
+  background-color: green;
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 16;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.lPanel {
+  background-color: gray;
+  height: 500px;
+  display: grid;
+  grid-column: span 3;
+  grid-row-start: 3;
+}/*# sourceMappingURL=style.css.map */
