@@ -13,17 +13,14 @@
 .header {
   background-color: red;
   display: grid;
-  grid-column-start: 4;
-  grid-column-end: 16;
+  grid-column: span 12/16;
 }
 
 .content {
   background-color: green;
   display: grid;
-  grid-column-start: 4;
-  grid-column-end: 16;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-column: 4/16;
+  grid-row: 2/10;
 }
 
 .lPanel {
@@ -31,5 +28,4 @@
   height: 500px;
   display: grid;
   grid-column: span 3;
-  grid-row-start: 3;
 }/*# sourceMappingURL=style.css.map */
