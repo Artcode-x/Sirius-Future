@@ -298,7 +298,25 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  border: 1px solid;
+  border: 1px solid rgb(236, 236, 236);
+  background: rgb(255, 255, 255);
+}
+.grid__days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column: 1/8;
+}
+.grid__days-count {
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px 6px 0px 6px;
+  /* Inside Auto Layout */
+  align-self: stretch;
+  margin: 0px 0px;
+  border-radius: 8px 0px 0px 0px;
 }
 .grid__win {
   height: 101px;
@@ -309,5 +327,6 @@
   padding: 4px 2px 2px 2px;
   order: 0;
   align-self: stretch;
-  border: 1px solid;
+  border: 1px solid rgb(236, 236, 236);
+  background: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
