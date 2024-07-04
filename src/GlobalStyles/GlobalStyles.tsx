@@ -7,8 +7,8 @@ const GlobalStyles = createGlobalStyle`
     }
 
 #root {
-  padding-left: calc(50% - 695px);
-    padding-right: calc(50% - 695px);
+  /* padding-left: calc(50% - 695px);
+    padding-right: calc(50% - 695px); */
 }
 
 body {
